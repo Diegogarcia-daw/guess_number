@@ -1,0 +1,22 @@
+body {
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+}
+
+body > div {
+    display: flex;
+    gap: 50px;
+}
+
+#optionsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#optionForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
